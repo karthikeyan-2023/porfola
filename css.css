@@ -1,0 +1,342 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8));
+}
+/* ----- Header ------*/
+.header
+{
+    width: 100%;
+    background-color: rgb(240, 240, 145);
+    position: relative;
+    padding: 10px;
+    display: flex;
+}
+.header h3
+{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: rgb(248, 74, 43);
+    display: inline-block;
+    margin: 20px 50px;
+    cursor: pointer;
+}
+.header li
+{
+    display: inline-block;
+    position: relative;
+    left: 95%;
+    margin: 20px 19px;
+}
+/* ----- Home section ------*/
+.section
+{
+    display: flex;
+    margin-top: 140px;
+}
+.section .left
+{
+    left: 12%;
+    position: relative;
+    margin-top: 3%;
+    color: #ece3e3;
+}
+.section .left h1
+{
+    letter-spacing: 3px;
+    color: rgb(209, 43, 201);
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    text-shadow:  2px 2px 9px#6a58ce;
+}
+.section .left p
+{
+    color: #a8de2a;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.section .left .ml-5
+{
+    margin-left: 80px;
+}
+.section .right
+{
+    width: 250px;
+    height: 250px;
+    border: 9px solid #b56aa5;
+    left: 30%;
+    position: relative;
+    transform: rotate(145deg);
+    box-shadow: 2px 2px 20px 6px #bc8c8c;
+}
+.section img
+{
+    width: 250px;
+    height: 250px;
+    left: 15%;
+    bottom: 25%;
+    position: relative;
+    border: 2px solid #f3f374;
+    border-radius: 10%;
+    box-shadow: 2px 2px 20px 6px rgb(123, 184, 184);
+}
+/* ----- About Section ------*/
+.section2
+{
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    color: #ffffff;
+}
+.section2 .left
+{
+    width: 350px;
+    height: 350px ;
+    border: 5px doubl #d7ebf2;
+    left: 15%;
+    position: relative;
+    transform: rotate(110deg);
+    border-radius: 10%;
+    box-shadow: 1px 1px 15px 12px #5139d7;
+    
+}
+.section2  img
+{
+    width: 300px;
+    height: 300px;
+    left: -12%;
+    margin-top: 30px;
+    position: relative;
+    box-shadow: 2px 2px 20px 6px #cf73c9;
+    border-radius: 10%;
+}
+.section2 .right
+{
+    width: 40%;
+    height: 250px ;
+    left: 45%; 
+}
+.section2 .right h2 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #12e061;
+    font-weight: 800;
+    text-shadow: 2px 2px 20px  #3010e0;
+    margin-bottom: 20px;
+}
+.section2 .right h3 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #b3e012;
+    font-weight: 700;
+    text-shadow: 2px 2px 20px  #4a2fe0;
+    margin-bottom: 20px;
+}
+.section2 .right p
+{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.section2 .right div
+{
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.section2 .right .fa-facebook
+{
+    display: inline-block;
+    background: #316FF6;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.section2 .right .fa-twitter
+{
+    display: inline-block;
+    background: #1DA1F2;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.section2 .right .fa-instagram
+{
+    display: inline-block;
+    background: linear-gradient(red , pink,yellow);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.section2 .right .fa-linkedin
+{
+    display: inline-block;
+    background: #0077b5;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.section2 .right .fa-github
+{
+    display: inline-block;
+    background: linear-gradient(rgba(2,3,4,0.7), rgb(85, 80, 80) );
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+/* ----- Skill Scetion ------*/
+.skill
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 220px;
+}
+.skill .col-4
+{
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 60px;
+    background: linear-gradient(white , rgb(159, 94, 132));
+    box-shadow: 2px 1px 15px 2px#7a7e7f;
+    transition: 2s all linear;
+}
+.skill .col-4:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+    background: transparent;
+    box-shadow: 2px 2px 15px 3px #fff;
+    border: none;
+}
+.skill .col-4 div
+{
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 40px;
+    border: 3px groove;
+    border-radius: 50%;
+    background: #71cf68;
+    margin-bottom: 20px ; 
+}
+.skill .col-4 div h2
+{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 18px;
+}
+.skill .col-4 h3
+{
+    color: #0077b5;
+    font-weight: 600;
+}
+/* ----- Project Section ----- */
+.projects
+{
+    margin-top: 100px;
+    padding-top: 20px;
+}
+.projects h2
+{
+    color: #12e061;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.projects .col-6
+{
+    border: 1px solid;
+    margin-left: 20px;
+    width: 350px;
+    height: 510px;
+    padding: 10px;
+    background: linear-gradient(rgb(238, 238, 156) , rgb(103, 103, 204));
+    border-radius: 20px;
+    transition: 2s all linear;
+}
+.projects .col-6:hover
+{
+    transform: scale(1.05);
+    background: linear-gradient(rgb(238, 238, 156) , rgb(217, 109, 220));
+}
+.projects .col-6 img
+{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.projects .col-6 h3
+{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(243, 43, 8);
+    margin: 15px;
+}
+.projects .col-6 p
+{
+    padding-left: 8px;
+}
+.projects .col-6 a
+{
+    text-decoration: none;
+    color: #88dba9;
+    display: inline-block;
+    margin-left: 22px;
+}
+/* ----- footer ------ */
+.footer
+{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    border-top: 4px solid #757975;
+}
+.footer i
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background: #f2eeee;
+    text-align: center;
+    padding-top: 12.5px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition: 1.5s all ease-in-out;
+}
+.footer i:hover 
+{
+    scale: 1.1;
+    color: #fff;
+    background: #0077b5;
+    transform: rotateY(180deg);
+}
